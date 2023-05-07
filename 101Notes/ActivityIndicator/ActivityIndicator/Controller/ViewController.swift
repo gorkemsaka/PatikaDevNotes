@@ -43,7 +43,7 @@ class ViewController: UIViewController {
          }else if(passwordTextField.text != "12345"){
              warningLabel.text = "HATA: Sifre Yanlis"
              warningLabel.isHidden = false
-             
+             activityIndicatorView.isHidden = true
          }
         
         

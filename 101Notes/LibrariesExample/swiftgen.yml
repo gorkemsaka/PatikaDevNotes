@@ -1,0 +1,19 @@
+
+# burada yaptigimiz sey calismiyor. Bu yuzden scripti kaldirip buraya yedekliyorum
+#Pods/SwiftGen/bin/swiftgen bu komutu, projenin bulundugu konumda terminalde calistirinca Assets.swift olusturuldu
+xcassets :
+ inputs :
+    - LibrariesExample/Supporting Files/Assets.xcassets
+ outputs:
+    - templateName : swift5
+      output : Assets.swift
+
+
+
+# XCode'da sceript olarak eklememiz gereken shell kodu
+# if which swiftgen >/dev/null; then
+#  swiftgen
+# else
+# echo "warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen"
+# fi
+

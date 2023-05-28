@@ -9,7 +9,7 @@ import UIKit
 import CoreData
 
 
-// burada UIViewController sinifindan, ViewController olusturduk ve bu sinifUITableViewDelegate ve UITableViewDataSource protokollerini kullaniyor
+// burada UIViewController sinifindan, ViewController olusturduk ve bu sinifUITableViewDelegate ve UITableViewDataSource protokollerini kullaniyor fakat bu protokolleri yazdigimiz extensionsta kullandik
 class ViewController: UIViewController{
     @IBOutlet weak var tableView : UITableView!
     
